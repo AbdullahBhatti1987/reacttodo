@@ -1,0 +1,15 @@
+body {
+  background-image: url('../images/black.jpg'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .no-scrollbar {
+    scrollbar-width: none; 
+  }
